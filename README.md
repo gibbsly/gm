@@ -26,6 +26,7 @@ multiples the first array by the second array
 divides the first array by the second array
 - configurable maximum decimal precision, set with `/scoreboard players set mdp= arr_math.main x`, where x is the maximum precession you want (default 16)
 - remainder is output into `rem` array in the output object
+- there are currenttly some issues with division 
 ### compare 
 compares the input arrays and outputs what input is the greatest
 - compares absolute value of the arrays, polarity is not accounted for
