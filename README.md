@@ -1,6 +1,6 @@
 # minecraft-array-math
 A utility datapack for doing math operations with arrays of numbers
-- - - 
+
 ## Format
 Numbers in this are formatted in a specific way to store all necessary data related to the number you are inputting
 > `{dec:0,num:[],pol:1,base:0}`
