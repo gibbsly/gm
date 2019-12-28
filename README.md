@@ -37,6 +37,7 @@ compares the input arrays and outputs what input is the greatest
 ## Use
 ### Setup
 `/function arr_math:setup` creates scoreboards and storage spaces
+`/function arr_math:reset` fixes scoreboard and storage spaces if a calculation is terminated before it finishes
 ### Input and output
 - `/data modify storage arr_math:in var1 <number object>` to input value one
 - `/data modify storage arr_math:in var2 <number object>` to input value two
