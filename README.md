@@ -1,5 +1,5 @@
 # minecraft-array-math
-A utility datapack for doing math operations with arrays of numbers
+A utility datapack for doing math operations with arrays of numbers in a configurable base
 
 *there may currently be some issues, if you encounter any miscalculations please file an issue with the inputs and the output*
 
@@ -9,7 +9,7 @@ Numbers in this are formatted in a specific way to store all necessary data rela
 - dec: the position of the decimal point from the right
 - num: the list of numbers in order
 - pol: 1 if the number is positive, -1 if the number is negitive
-- base: the base that the number is in, base 2 for bianary, base 10 for decimal, 16 for hexadecimal
+- base: the base that the number is in, base 2 for bianary, base 10 for decimal, 16 for hexadecimal (supported bases are 2 to 2^30-1)
 
 #### Examples:
 - -12.34 = `{dec:2,num:[1,2,3,4],pol:-1,base:10}`
