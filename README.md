@@ -9,7 +9,8 @@ Numbers in this are formatted in a specific way to store all necessary data rela
 - dec: the position of the decimal point from the right
 - num: the list of numbers in order
 - pol: 1 if the number is positive, -1 if the number is negitive
-- base: the base that the number is in, base 2 for bianary, base 10 for decimal, 16 for hexadecimal (supported bases are 2 to 2^30-1)
+- base: the base that the number is in, base 2 for bianary, base 10 for decimal, 16 for hexadecimal 
+- - *supported bases are* `2^1 (2)` *to* `2^30-1 (1073741823)`
 
 #### Examples:
 - -12.34 = `{dec:2,num:[1,2,3,4],pol:-1,base:10}`
