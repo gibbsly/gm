@@ -1,7 +1,7 @@
 #setting up data and scores
 execute store result score base= arr_math.main run data get storage arr_math:in var1.base
 data modify storage arr_math:main out.base set from storage arr_math:in var1.base
-data modify storage arr_math:main div set value {rem:[],mdp:0,cdp:0,pv2:{},v1:{},v2:{},out:{num:[0],dec:0,base:0,pol:1,rem:[]}}
+data modify storage arr_math:main div set value {rem:[],mdp:0,cdp:0,pv2:{},v1:{},v2:{},out:{num:[],dec:0,base:0,pol:1,rem:[]}}
 data modify storage arr_math:main div.out.base set from storage arr_math:in var1.base
 #mdp: max decimal precision - cdp: current decimal position
 scoreboard players set cdp= arr_math.main 0
