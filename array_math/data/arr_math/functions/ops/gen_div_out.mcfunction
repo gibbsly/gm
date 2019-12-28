@@ -20,9 +20,6 @@ execute store result storage arr_math:main v2.dec int 1 run scoreboard players g
 
 data modify storage arr_math:main out.num set value []
 
-tellraw @a [{"nbt":"v1","storage":"arr_math:main"},{"nbt":"v2","storage":"arr_math:main"},{"nbt":"out","storage":"arr_math:main"}]
-tellraw @a ["cur ",{"score":{"name":"cur_dp=","objective":"arr_math.main"}}," cdp " ,{"score":{"name":"cdp=","objective":"arr_math.main"}}," pre ",{"score":{"name":"pre_dp=","objective":"arr_math.main"}}]
-
 #doing addition
 scoreboard players set temp= arr_math.main 0
 function arr_math:ops/dec_move
