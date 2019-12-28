@@ -1,6 +1,8 @@
 # minecraft-array-math
 A utility datapack for doing math operations with arrays of numbers
 
+*there may currently be some issues, if you encounter any miscalculations please file an issue with the inputs and the output*
+
 ## Format
 Numbers in this are formatted in a specific way to store all necessary data related to the number you are inputting
 > `{dec:0,num:[],pol:1,base:0}`
@@ -26,7 +28,6 @@ multiples the first array by the second array
 divides the first array by the second array
 - configurable maximum decimal precision, set with `/scoreboard players set mdp= arr_math.main x`, where x is the maximum precession you want (default 16)
 - remainder is output into `rem` array in the output object
-- there are currenttly some issues with division 
 ### compare 
 compares the input arrays and outputs what input is the greatest
 - compares absolute value of the arrays, polarity is not accounted for
