@@ -1,5 +1,5 @@
-# minecraft-array-math
-A utility datapack for doing math operations with arrays of numbers in a configurable base
+# minecraft floating point arithmetic
+A utility datapack for doing math operations in a configurable base
 
 *there may currently be some issues, if you encounter any miscalculations please file an issue with the inputs and the output*
 
