@@ -33,6 +33,15 @@ divides the first array by the second array
 compares the input arrays and outputs what input is the greatest
 - compares absolute value of the arrays, polarity is not accounted for
 - outputs in the output object as `{result:x}`, where x is the greatest array, if equal it is 0
+### scoreboard
+#### import
+this converts a scoreboard value into a formatted number in the output object
+- put your input in score `in= arr_math.main`
+- can be configured to a different base by setting scoreboard value `base= arr_math.main`
+#### export
+this converts a formatted number object into a scoreboard value
+- put your input into `storage arr_math:in var1`, output will be in score `out= arr_math.main`
+- decimal points are ignored
 
 ## Use
 ### Setup
