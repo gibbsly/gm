@@ -42,6 +42,11 @@ this converts a scoreboard value into a formatted number in the output object
 this converts a formatted number object into a scoreboard value
 - put your input into `storage arr_math:in var1`, output will be in score `out= arr_math.main`
 - decimal points are ignored
+### convert
+#### flatten
+converts a formatted number into a double in the output object
+- put your input into `storage arr_math:in var1`, output will be in `storage arr_math:main out.num`
+- can only correctly handle decimal points for base 10 numbers
 
 ## Use
 ### Setup
