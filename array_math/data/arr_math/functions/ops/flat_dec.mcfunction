@@ -1,0 +1,11 @@
+execute if data storage arr_math:in {var1:{dec:0}} store result storage arr_math:main out.num double 1 run scoreboard players get out= arr_math.main
+execute if data storage arr_math:in {var1:{dec:1}} store result storage arr_math:main out.num double 0.1 run scoreboard players get out= arr_math.main
+execute if data storage arr_math:in {var1:{dec:2}} store result storage arr_math:main out.num double 0.01 run scoreboard players get out= arr_math.main
+execute if data storage arr_math:in {var1:{dec:3}} store result storage arr_math:main out.num double 0.001 run scoreboard players get out= arr_math.main
+execute if data storage arr_math:in {var1:{dec:4}} store result storage arr_math:main out.num double 0.0001 run scoreboard players get out= arr_math.main
+execute if data storage arr_math:in {var1:{dec:5}} store result storage arr_math:main out.num double 0.00001 run scoreboard players get out= arr_math.main
+execute if data storage arr_math:in {var1:{dec:6}} store result storage arr_math:main out.num double 0.000001 run scoreboard players get out= arr_math.main
+execute if data storage arr_math:in {var1:{dec:7}} store result storage arr_math:main out.num double 0.0000001 run scoreboard players get out= arr_math.main
+execute if data storage arr_math:in {var1:{dec:8}} store result storage arr_math:main out.num double 0.00000001 run scoreboard players get out= arr_math.main
+execute if data storage arr_math:in {var1:{dec:9}} store result storage arr_math:main out.num double 0.000000001 run scoreboard players get out= arr_math.main
+execute if data storage arr_math:in {var1:{dec:10}} store result storage arr_math:main out.num double 0.0000000001 run scoreboard players get out= arr_math.main
