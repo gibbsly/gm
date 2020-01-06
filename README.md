@@ -56,3 +56,7 @@ converts a formatted number into a double in the output object
 - `/data modify storage arr_math:in var1 <number object>` to input value one
 - `/data modify storage arr_math:in var2 <number object>` to input value two
 - `/data get storage arr_math:main out` to read the output
+### Error Codes
+- `10-19` scoreboard error (overflow error)
+- `20-29` command error (`maxCommandChainLength` hit max)
+- `30-39` base error (incompatible base values in inputs)
