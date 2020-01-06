@@ -9,6 +9,7 @@ scoreboard players operation temp= arr_math.main -= v2dec= arr_math.main
 execute unless score temp= arr_math.main matches 0 run function arr_math:ops/mult_remove_zero
 
 execute store result storage arr_math:main out.dec int 1 run scoreboard players operation v1dec= arr_math.main += v2dec= arr_math.main
+data modify storage arr_math:main out.base set from storage arr_math:in var1.base
 
 #setting polarity
 data modify storage arr_math:main out.pol set value 1

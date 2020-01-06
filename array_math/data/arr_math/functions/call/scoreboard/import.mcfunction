@@ -1,3 +1,4 @@
+scoreboard players set error= arr_math.main 20
 #setting up output
 data modify storage arr_math:main out set value {dec:0,num:[],pol:1,base:0}
 
