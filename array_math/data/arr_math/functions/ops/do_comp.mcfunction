@@ -1,6 +1,7 @@
 #decimal point handling
 function arr_math:ops/dec_move
 execute unless data storage arr_math:main div run data modify storage arr_math:main out set value {result:0}
+data modify storage arr_math:main out.result set value 0
 
 #getting length of array
 execute store result score v1length= arr_math.main run data get storage arr_math:main v1.num
