@@ -1,8 +1,12 @@
 #finding the difference between the decimal point positions
 scoreboard players operation cur_dp= arr_math.main = dv1dec= arr_math.main
 scoreboard players operation cur_dp= arr_math.main -= dv2dec= arr_math.main
-scoreboard players operation cdp= arr_math.main += cur_dp= arr_math.main
-scoreboard players operation cdp= arr_math.main -= pre_dp= arr_math.main
+
+scoreboard players operation t_cur_dp= arr_math.main = cur_dp= arr_math.main
+scoreboard players operation t_cur_dp= arr_math.main -= pre_dp= arr_math.main
+execute unless score con= arr_math.main matches ..1 if score t_cur_dp= arr_math.main matches ..-1 run scoreboard players operation t_cur_dp= arr_math.main *= -1= arr_math.main
+scoreboard players operation cdp= arr_math.main += t_cur_dp= arr_math.main
+
 execute if score cur_dp= arr_math.main = pre_dp= arr_math.main run scoreboard players add cdp= arr_math.main 1
 scoreboard players operation pre_dp= arr_math.main = dv1dec= arr_math.main
 scoreboard players operation pre_dp= arr_math.main -= dv2dec= arr_math.main

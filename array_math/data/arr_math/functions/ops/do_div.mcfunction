@@ -4,6 +4,8 @@ data modify storage arr_math:main v2 set from storage arr_math:main div.pv2
 scoreboard players set dv1dec= arr_math.main 0
 scoreboard players set dv2dec= arr_math.main 0
 
+scoreboard players add con= arr_math.main 1
+
 #shifts v2 until it is greater than v1
 function arr_math:ops/inc_v2
 

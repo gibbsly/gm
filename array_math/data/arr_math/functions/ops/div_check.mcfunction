@@ -5,6 +5,7 @@ data modify storage arr_math:main div set value {rem:[],mdp:0,cdp:0,pv2:{},v1:{}
 data modify storage arr_math:main div.out.base set from storage arr_math:in var1.base
 #mdp: max decimal precision - cdp: current decimal position
 scoreboard players set cdp= arr_math.main 0
+scoreboard players set -1= arr_math.main -1
 execute unless score mdp= arr_math.main matches 0.. run scoreboard players set mdp= arr_math.main 16
 
 #decimal point handling
