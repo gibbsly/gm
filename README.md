@@ -30,7 +30,7 @@ divides the first value by the second value
 - configurable maximum decimal precision, set with `/scoreboard players set mdp= arr_math.main x`, where x is the maximum precession you want (default 16)
 - remainder is output into `rem` array in the output object
 ### compare 
-compares the input arrays and outputs what input is the greatest
+compares the input values and outputs what input is the greatest
 - compares absolute value of the arrays, polarity is not accounted for
 - outputs in the output object as `{result:x}`, where x is the greatest array, if equal it is 0
 ### scoreboard
