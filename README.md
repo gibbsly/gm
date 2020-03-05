@@ -20,16 +20,15 @@ Numbers in this are formatted in a specific way to store all necessary data rela
 ## Operations
 call an operation with `function arr_math:call/<operation name>`
 ### add
-adds the input arrays array together
+adds the input values together
 ### subtract
-subtracts the input arrays array together
+subtracts the input values
 ### multiply
-multiples the first array by the second array
+multiples the first value by the second value
 ### divide
-divides the first array by the second array
+divides the first value by the second value
 - configurable maximum decimal precision, set with `/scoreboard players set mdp= arr_math.main x`, where x is the maximum precession you want (default 16)
 - remainder is output into `rem` array in the output object
-- *may give incorrect result with very specific calculations due to decimal point position error, working on fixing it*
 ### compare 
 compares the input arrays and outputs what input is the greatest
 - compares absolute value of the arrays, polarity is not accounted for
