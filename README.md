@@ -47,6 +47,11 @@ this converts a formatted number object into a scoreboard value
 converts a formatted number into a double in the output object
 - put your input into `storage arr_math:in var1`, output will be in `storage arr_math:main out.num`
 - can only correctly handle decimal points for base 10 numbers
+#### base
+converts the first input into a different base, specified by the second input
+- the base you want to convert into must be written in the base of the first value 
+- for example if you want to convert into base 16 from base 10 you would put `{dec:0,num:[1,6],pol:1,base:10}`
+- currently decimal point positions are not accounted for, the base conversion is handled as if there are no decimal points
 
 ## Use
 ### Setup
