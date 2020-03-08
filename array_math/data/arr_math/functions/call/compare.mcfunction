@@ -1,6 +1,6 @@
 scoreboard players set error= arr_math.main 20
 #writing from input
-execute unless data storage arr_math:main div run data modify storage arr_math:main v1 set from storage arr_math:in var1
+execute unless data storage arr_math:main dc unless data storage arr_math:main div run data modify storage arr_math:main v1 set from storage arr_math:in var1
 execute unless data storage arr_math:main div run data modify storage arr_math:main v2 set from storage arr_math:in var2
 
 #checks to see if base values are the same for both numbers
