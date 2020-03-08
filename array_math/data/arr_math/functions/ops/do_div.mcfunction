@@ -39,5 +39,5 @@ execute if data storage arr_math:main {temp:0} run function arr_math:ops/trim_dv
 execute unless score zc= arr_math.main matches 0 run function arr_math:ops/rem_check
 
 #loop
-execute unless score zc= arr_math.main matches 0 if score cdp= arr_math.main < mdp= arr_math.main run function arr_math:ops/do_div
 #execute unless score zc= arr_math.main matches 0 if score cdp= arr_math.main < mdp= arr_math.main unless score tcdp= arr_math.main >= mdp= arr_math.main run function arr_math:ops/do_div
+execute unless score zc= arr_math.main matches 0 if score cdp= arr_math.main < mdp= arr_math.main run function arr_math:ops/do_div

@@ -11,4 +11,4 @@ execute unless score v1base= arr_math.main = v2base= arr_math.main run scoreboar
 execute if score v1base= arr_math.main = v2base= arr_math.main run function arr_math:ops/div_check
 
 data remove storage arr_math:main div
-scoreboard players reset * arr_math.main
+execute if score error= arr_math.main matches 20 run scoreboard players reset * arr_math.main

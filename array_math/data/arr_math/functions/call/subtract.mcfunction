@@ -5,4 +5,4 @@ execute store result score v2base= arr_math.main run data get storage arr_math:i
 execute unless score v1base= arr_math.main = v2base= arr_math.main run scoreboard players set error= arr_math.main 30
 execute if score v1base= arr_math.main = v2base= arr_math.main run function arr_math:ops/sub_check
 
-scoreboard players reset * arr_math.main
+execute if score error= arr_math.main matches 20 run scoreboard players reset * arr_math.main
