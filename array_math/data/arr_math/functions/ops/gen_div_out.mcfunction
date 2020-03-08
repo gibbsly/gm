@@ -29,7 +29,7 @@ scoreboard players set temp= arr_math.main 0
 function arr_math:ops/dec_move
 function arr_math:ops/add_cur
 
-execute store result score tcdp= arr_math.main run data get storage arr_math:main out.dec
+#execute store result score tcdp= arr_math.main run data get storage arr_math:main out.dec
 
 #writing from output
 data modify storage arr_math:main div.out set from storage arr_math:main out
