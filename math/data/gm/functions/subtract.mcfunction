@@ -9,3 +9,5 @@ execute unless data storage gm:temp {tv2p:"-"} run data modify storage gm:temp v
 function gm:zzz/subtract_handling with storage gm:temp
 execute if data storage gm:io {out:"fail"} run return fail
 return run data get storage gm:io out
+
+$tp invalid-input $(x) $(y) 0
