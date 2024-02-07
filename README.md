@@ -25,6 +25,11 @@ when specifying `x` as an array of numbers (will only divide up to the first 3 n
 
 outputs the resulting numbers in an array in the default output location and returns the length of the outputted array
 
+### `gm:distance`
+> gets the distance between `x` and `y`
+
+for this operation 2 position arrays must be given instead of single values. If an array is empty or values are unspecified, the values will default to 0
+
 ## single input functions
 these functions only requires `{x:(number)}` as an argument
 
@@ -41,3 +46,6 @@ these functions only requires `{x:(number)}` as an argument
 > does `tan(x)`
 
 also outputs sin to `storage gm:temp var1` and cos to `storage gm:temp var2`
+
+### `gm:square`
+> does `x^2`
