@@ -19,9 +19,9 @@ when specifying `x` as a number
 
 > does `x / y`
 
-when specifying `x` as an array of numbers (will only divide up to the first 6 numbers in the array)
+when specifying `x` as an array of numbers (will only divide up to the first 3 numbers in the array)
 
-> does `[0] / y, [1] / y, [2] / y, [3] / y, [4] / y, [5] / y`
+> does `[0] / y, [1] / y, [2] / y`
 
 outputs the resulting numbers in an array in the default output location and returns the length of the outputted array
 
