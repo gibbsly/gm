@@ -34,6 +34,9 @@ for this operation 2 position arrays must be given instead of single values. If 
 these functions only requires `{x:(number)}` as an argument
 
 ### `gm:negate`
+> does `x * -1`
+
+### `gm:reciprocal`
 > does `1 / x`
 
 ### `gm:sin`
