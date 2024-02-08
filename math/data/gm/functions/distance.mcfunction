@@ -42,9 +42,7 @@ execute if data storage gm:temp {tv2p:"-"} run data modify storage gm:temp var2.
 execute if data storage gm:temp {tv2p:"-"} run function gm:subtract with storage gm:temp var2
 data modify storage gm:temp dist.z set from storage gm:io out
 
-execute summon item_display run function gm:zzz/distance_handling with storage gm:temp dist
+execute unless data storage gm:temp dist{x:"fail"} unless data storage gm:temp dist{y:"fail"} unless data storage gm:temp dist{z:"fail"} summon item_display run return run function gm:zzz/distance_handling with storage gm:temp dist
 
-execute if data storage gm:io {out:"fail"} run return fail
-return run data get storage gm:io out
-
+return fail
 $data modify storage invalid input set value [[],$(x),$(y)]

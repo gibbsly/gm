@@ -4,3 +4,4 @@ data modify storage gm:temp var1[-1] set from entity @s transformation.translati
 data modify entity @s transformation set from storage gm:temp var1
 data modify storage gm:io out set from entity @s transformation.translation[0]
 kill @s
+return run data get storage gm:io out
