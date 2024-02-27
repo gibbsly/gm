@@ -7,4 +7,4 @@ data modify storage gm:io out set from entity 91bb5-0-0-0-ffff transformation.tr
 return run data get storage gm:io out
 
 return fail
-$tp invalid-input $(x) 0
+$tp invalid-input $(x) 0 0
