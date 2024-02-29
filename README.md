@@ -50,6 +50,14 @@ these functions only requires `{x:(number)}` as an argument
 
 > does `1 / x`
 
+### `gm:square`
+
+> does `x^2`
+
+### `gm:sqrt`
+
+> does `√x`
+
 ### `gm:sin`
 
 > does `sin(x)`
@@ -64,10 +72,10 @@ these functions only requires `{x:(number)}` as an argument
 
 also outputs sin to `storage gm:temp var1` and cos to `storage gm:temp var2`
 
-### `gm:square`
+### `gm:arcsin`
 
-> does `x^2`
+> does `sin⁻¹(x)`
 
-### `gm:sqrt`
+### `gm:arccos`
 
-> does `√x`
+> does `cos⁻¹(x)`
