@@ -38,6 +38,12 @@ outputs the resulting numbers in an array in the default output location and ret
 
 for this operation 2 position arrays must be given instead of single values. If an array is empty or values are unspecified, the values will default to 0
 
+### `gm:arctan2`
+
+> does `atan2(y, x)`
+
+this operation is similar to doing `tan⁻¹(y/x)`, except that `-180 ≤ atan2(y, x) ≤ 180`. This gives a full 360° result, compared the 180° result of just doing `tan⁻¹(y/x)`
+
 ## single input functions
 
 these functions only requires `{x:(number)}` as an argument
@@ -76,6 +82,16 @@ also outputs sin to `storage gm:temp var1` and cos to `storage gm:temp var2`
 
 > does `sin⁻¹(x)`
 
+`-90 ≤ sin⁻¹(x) ≤ 90` where `-1 ≤ x ≤ 1`
+
 ### `gm:arccos`
 
 > does `cos⁻¹(x)`
+
+`0 ≤ cos⁻¹(x) ≤ 180` where `-1 ≤ x ≤ 1`
+
+### `gm:arctan`
+
+> does `tan⁻¹(x)`
+
+`-90 ≤ tan⁻¹(x) ≤ 90`
