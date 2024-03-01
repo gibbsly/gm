@@ -76,7 +76,7 @@ these functions only requires `{x:(number)}` as an argument
 
 > does `tan(x)`
 
-also outputs sin to `storage gm:temp var1` and cos to `storage gm:temp var2`
+also outputs sin to `storage gm._temp_:std var1` and cos to `storage gm._temp_:std var2`
 
 ### `gm:arcsin`
 
