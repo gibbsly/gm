@@ -1,8 +1,8 @@
 {
   "pack": {
-    "pack_format": 18,
+    "pack_format": 20,
     "supported_formats": {
-      "min_inclusive": 18,
+      "min_inclusive": 20,
       "max_inclusive": 26
     },
     "description": "§7Floating Point Arithmetic §b- §7by gibbsly \n§7[§dgithub.com/gibbsly/gm§7]"
