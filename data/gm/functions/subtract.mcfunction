@@ -28,6 +28,7 @@ execute if data storage gm._temp_:std {tv2p:"-"} run data modify storage gm._tem
 execute if data storage gm._temp_:std {tv2p:"-"} if data storage gm._temp_:std {v2dt:"d"} run data modify storage gm._temp_:std var2 set string storage gm._temp_:std var2 0 -1
 execute if data storage gm._temp_:std {tv2p:"-"} run data modify storage gm._temp_:std v2p set value ""
 execute unless data storage gm._temp_:std {tv2p:"-"} run data modify storage gm._temp_:std v2p set value "-"
+function gm:zzz/convert_to_double with storage gm._temp_:std
 return run function gm:zzz/subtract_handling with storage gm._temp_:std
 
 return fail
