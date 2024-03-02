@@ -2,7 +2,7 @@
 #
 # ## Gets the arctangent of a point
 #
-# Equivalent to `atan(y, x)`
+# Equivalent to `atan2(y, x)`
 # 
 # Measures the counterclockwise angle from the positive x axis to the point `(x, y)`.
 #

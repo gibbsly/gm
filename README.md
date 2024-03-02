@@ -95,3 +95,21 @@ also outputs sin to `storage gm._temp_:std var1` and cos to `storage gm._temp_:s
 > does `tan⁻¹(x)`
 
 `-90 ≤ tan⁻¹(x) ≤ 90`
+
+### `gm:round`
+
+> does `round(x)`
+
+Rounds x to the nearest integer. `0.5` will round up
+
+### `gm:floor`
+
+> does `floor(x)`
+
+Rounds x down to the nearest integer
+
+### `gm:ceil`
+
+> does `ceil(x)`
+
+Rounds x up to the nearest integer
