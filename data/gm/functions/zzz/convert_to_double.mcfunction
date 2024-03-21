@@ -4,6 +4,6 @@
 #
 # ---
 # @context any
-# @within gm:subtract
+# @internal
 
 $data modify storage gm._temp_:std var2 set value $(var2)d

@@ -4,7 +4,7 @@
 #
 # ---
 # @context any
-# @within gm:subtract
+# @internal
 
 $execute positioned ~ $(var1) ~ run tp 91bb5-0-0-0-ffff 29999999 ~$(v2p)$(var2) 91665
 data modify storage gm:io out set from entity 91bb5-0-0-0-ffff Pos[1]
