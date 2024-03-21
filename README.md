@@ -32,6 +32,12 @@ when specifying `x` as an array of numbers (will only divide up to the first 3 n
 
 outputs the resulting numbers in an array in the default output location and returns the length of the outputted array
 
+### `gm:modulo`
+
+> does `x % y`
+
+implementation of fmod. fails if y is 0
+
 ### `gm:distance`
 
 > gets the distance between `x` and `y`
