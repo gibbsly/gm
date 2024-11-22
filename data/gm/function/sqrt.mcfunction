@@ -9,10 +9,6 @@
 # # Fails
 # Will fail if `x < 0`
 #
-# # Unstable
-# In ***very rare*** cases, can run forever. If you find this occuring,
-# please report it at https://github.com/gibbsly/gm/issues
-#
 # ---
 # @context any
 # @api
@@ -23,6 +19,7 @@
 #   storage gm:io
 #      out: float | "fail"
 
+scoreboard players set __sqrt_loop gm.std 0
 data modify storage gm:io out set value "fail"
 $data merge storage gm._temp_:std {var1:$(x), var2:1, var3:[0d,0d,0d,0d,0d,1d,0d,0d,0d,0d,1d,0d,0d,0d,0d,2d], var4:[0f,0f,0f,$(x)f,0f,1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,0f]}
 $return run function gm:zzz/sqrt_handling {var1:$(x), var2:1}
